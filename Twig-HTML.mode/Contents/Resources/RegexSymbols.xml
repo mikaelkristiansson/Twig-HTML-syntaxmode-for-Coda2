@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbols>
+    <blocks>
+        <beginregex>{%</beginregex>
+        <endregex>%}</endregex>
+    </blocks>
+
+    <symbol id="Blocks" image="SymbolB.tiff" indentation="0" ignoreblocks="yes">
+        <regex>\s+block\s+(\w+).*?\s+</regex>
+    </symbol>
+    <symbol id="Macros" image="SymbolM" indentation="0" ignoreblocks="yes">
+        <regex>\s+macro\s+(\w+).*?\s+</regex>
+    </symbol>
+</symbols>
